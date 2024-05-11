@@ -15,7 +15,7 @@ app.use(cors());
 app.post('/create-checkout-session', async (req, res) => {
   const { productName, price } = req.body;
 
-  const baseUrl = 'http://localhost:5173';
+  const baseUrl = 'http://35.247.159.185';
   const successUrl = `${baseUrl}`;
   const cancelUrl = `${baseUrl}`;
 
